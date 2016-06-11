@@ -41,7 +41,9 @@
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
   <project path="android" name="Altair-ROM/android" remote="altair" />
+  <project path="external/DUtils" name="Altair-ROM/android_external_DUtils" remote="altair" />
   <project path="frameworks/base" name="Altair-ROM/android_frameworks_base" groups="pdk-cw-fs,pdk-fs" remote="altair" />
+  <project path="packages/apps/DUI" name="Altair-ROM/android_packages_apps_DUI" remote="altair" />
   <project path="packages/apps/Settings" name="Altair-ROM/android_packages_apps_Settings" groups="pdk-fs" remote="altair" />
   <project path="vendor/altair" name="Altair-ROM/android_vendor_altair" remote="altair" />
   <project path="vendor/cmsdk" name="Altair-ROM/cm_platform_sdk" remote="altair" />
