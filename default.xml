@@ -45,6 +45,7 @@
   <project path="frameworks/base" name="Altair-ROM/android_frameworks_base" groups="pdk-cw-fs,pdk-fs" remote="altair" />
   <project path="packages/apps/DUI" name="Altair-ROM/android_packages_apps_DUI" remote="altair" />
   <project path="packages/apps/Settings" name="Altair-ROM/android_packages_apps_Settings" groups="pdk-fs" remote="altair" />
+  <project path="packages/apps/SetupWizard" name="Altair-ROM/android_packages_apps_SetupWizard" remote="altair" />
   <project path="vendor/altair" name="Altair-ROM/android_vendor_altair" remote="altair" />
   <project path="vendor/cmsdk" name="Altair-ROM/cm_platform_sdk" remote="altair" />
 <!-- END ALTAIR -->
@@ -263,7 +264,7 @@
   <project path="packages/apps/Provision" name="CyanogenMod/android_packages_apps_Provision" groups="pdk-fs" />
   <project path="packages/apps/Screencast" name="CyanogenMod/android_packages_apps_Screencast" />
   <!-- <project path="packages/apps/Settings" name="CyanogenMod/android_packages_apps_Settings" groups="pdk-fs" /> /> --> <!-- CUSTOM -->
-  <project path="packages/apps/SetupWizard" name="CyanogenMod/android_packages_apps_SetupWizard" />
+  <!-- <project path="packages/apps/SetupWizard" name="CyanogenMod/android_packages_apps_SetupWizard" /> --> <!-- CUSTOM -->
   <project path="packages/apps/SmartCardService" name="CyanogenMod/android_packages_apps_SmartCardService" groups="pdk-fs" />
   <project path="packages/apps/Snap" name="CyanogenMod/android_packages_apps_Snap" />
   <project path="packages/apps/SoundRecorder" name="CyanogenMod/android_packages_apps_SoundRecorder" groups="pdk-fs" />
