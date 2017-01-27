@@ -46,6 +46,7 @@
   <project path="external/DUtils" name="Altair-ROM/android_external_DUtils" remote="altair" />
   <project path="external/sepolicy" name="Altair-ROM/android_external_sepolicy" remote="altair" />
   <project path="frameworks/base" name="Altair-ROM/android_frameworks_base" groups="pdk-cw-fs,pdk-fs" remote="altair" />
+  <project path="packages/apps/CMFileManager" name="Altair-ROM/android_packages_apps_CMFileManager" remote="altair" />
   <project path="packages/apps/DUI" name="Altair-ROM/android_packages_apps_DUI" remote="altair" />
   <project path="packages/apps/PackageInstaller" name="Altair-ROM/android_packages_apps_PackageInstaller" remote="altair" />
   <project path="packages/apps/Settings" name="Altair-ROM/android_packages_apps_Settings" groups="pdk-fs" remote="altair" />
@@ -242,7 +243,7 @@
   <project path="packages/apps/CellBroadcastReceiver" name="LineageOS/android_packages_apps_CellBroadcastReceiver" groups="pdk-fs" />
   <project path="packages/apps/CertInstaller" name="LineageOS/android_packages_apps_CertInstaller" groups="pdk-cw-fs,pdk-fs" />
   <project path="packages/apps/CMBugReport" name="LineageOS/android_packages_apps_CMBugreport" />
-  <project path="packages/apps/CMFileManager" name="LineageOS/android_packages_apps_CMFileManager" />
+  <!-- <project path="packages/apps/CMFileManager" name="LineageOS/android_packages_apps_CMFileManager" /> -->
   <project path="packages/apps/CMUpdater" name="LineageOS/android_packages_apps_CMUpdater" />
   <project path="packages/apps/CMWallpapers" name="LineageOS/android_packages_apps_CMWallpapers" />
   <project path="packages/apps/Contacts" name="LineageOS/android_packages_apps_Contacts" groups="pdk-fs" />
