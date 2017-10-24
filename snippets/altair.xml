@@ -62,4 +62,8 @@
 
     <!-- Track ThemeInterfacer -->
     <project path="packages/services/ThemeInterfacer" name="substratum/interfacer" remote="github" revision="n-rootless" />
+
+    <!-- Add Dirty Unicorns DUI repos -->
+    <project path="external/DUtils" name="Altair-ROM/android_external_DUtils" remote="altair" />
+    <project path="packages/apps/DUI" name="Altair-ROM/android_packages_apps_DUI" remote="altair" />
 </manifest>
