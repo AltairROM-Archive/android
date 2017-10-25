@@ -22,6 +22,7 @@
     <!-- Get rid of LineageOS repos -->
     <remove-project name="LineageOS/android" />
     <remove-project name="LineageOS/android_build" />
+    <remove-project name="LineageOS/android_device_qcom_sepolicy" />
     <remove-project name="LineageOS/android_frameworks_base" />
     <remove-project name="LineageOS/android_frameworks_native" />
     <remove-project name="LineageOS/android_packages_apps_CMParts" />
@@ -44,6 +45,7 @@
         <copyfile src="core/root.mk" dest="Makefile" />
     </project>
     <project path="android" name="Altair-ROM/android" remote="altair" />
+    <project path="device/qcom/sepolicy" name="Altair-Devices/android_device_qcom_sepolicy" remote="altair" />
     <project path="frameworks/base" name="Altair-ROM/android_frameworks_base" remote="altair" />
     <project path="frameworks/native" name="Altair-ROM/android_frameworks_native" remote="altair" />
     <project path="packages/apps/CMFileManager" name="Altair-ROM/android_packages_apps_CMFileManager" remote="altair" />
