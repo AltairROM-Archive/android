@@ -40,12 +40,16 @@
     <remove-project name="LineageOS/android_vendor_cm" />
     <remove-project name="LineageOS/cm_platform_sdk" />
 
+    <!-- Get rid of AOSP repos -->
+    <remove-project name="platform/external/noto-fonts" />
+
     <!-- Add Altair ROM repos -->
     <project path="build" name="Altair-ROM/android_build" remote="altair" >
         <copyfile src="core/root.mk" dest="Makefile" />
     </project>
     <project path="android" name="Altair-ROM/android" remote="altair" />
     <project path="device/qcom/sepolicy" name="Altair-Devices/android_device_qcom_sepolicy" remote="altair" />
+    <project path="external/noto-fonts" name="Altair-ROM/android_external_noto-fonts" remote="altair" />
     <project path="frameworks/base" name="Altair-ROM/android_frameworks_base" remote="altair" />
     <project path="frameworks/native" name="Altair-ROM/android_frameworks_native" remote="altair" />
     <project path="packages/apps/CMFileManager" name="Altair-ROM/android_packages_apps_CMFileManager" remote="altair" />
