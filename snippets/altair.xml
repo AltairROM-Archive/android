@@ -29,6 +29,7 @@
     <remove-project name="LineageOS/android_packages_apps_Settings" />
     <remove-project name="LineageOS/android_packages_apps_SetupWizard" />
     <remove-project name="LineageOS/android_packages_apps_Updater" />
+    <remove-project name="LineageOS/android_system_sepolicy" />
     <remove-project name="LineageOS/android_vendor_lineage" />
 
     <!-- Add Altair ROM repos -->
@@ -41,5 +42,6 @@
     <project path="lineage-sdk" name="Altair-ROM/android_platform_sdk" remote="altair" />
     <project path="packages/apps/LineageParts" name="Altair-ROM/android_packages_apps_Parts" remote="altair" />
     <project path="packages/apps/Settings" name="Altair-ROM/android_packages_apps_Settings" remote="altair" />
+    <project path="system/sepolicy" name="Altair-ROM/android_system_sepolicy"  remote="altair" />
     <project path="vendor/altair" name="Altair-ROM/android_vendor_altair" remote="altair" />
 </manifest>
