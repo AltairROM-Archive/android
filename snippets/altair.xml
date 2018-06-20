@@ -22,6 +22,7 @@
     <!-- Get rid of LineageOS repos -->
     <remove-project name="LineageOS/android" />
     <remove-project name="LineageOS/android_build" />
+    <remove-project name="LineageOS/android_build_soong" />
     <remove-project name="LineageOS/android_frameworks_base" />
     <remove-project name="LineageOS/android_lineage-sdk" />
     <remove-project name="LineageOS/android_packages_apps_LineageParts" />
@@ -34,6 +35,7 @@
     <project path="build" name="Altair-ROM/android_build" remote="altair" >
         <copyfile src="core/root.mk" dest="Makefile" />
     </project>
+    <project path="build/soong" name="Altair-ROM/android_build_soong" remote="altair" />
     <project path="android" name="Altair-ROM/android" remote="altair" />
     <project path="frameworks/base" name="Altair-ROM/android_frameworks_base" remote="altair" />
     <project path="lineage-sdk" name="Altair-ROM/android_platform_sdk" remote="altair" />
