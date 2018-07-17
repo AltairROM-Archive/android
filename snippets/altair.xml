@@ -52,7 +52,6 @@
     <project path="external/noto-fonts" name="Altair-ROM/android_external_noto-fonts" remote="altair" />
     <project path="frameworks/base" name="Altair-ROM/android_frameworks_base" remote="altair" />
     <project path="frameworks/native" name="Altair-ROM/android_frameworks_native" remote="altair" />
-    <project path="packages/apps/CMFileManager" name="Altair-ROM/android_packages_apps_CMFileManager" remote="altair" />
     <project path="packages/apps/CMParts" name="Altair-ROM/android_packages_apps_Parts" remote="altair" />
     <project path="packages/apps/Contacts" name="Altair-ROM/android_packages_apps_Contacts" remote="altair" />
     <project path="packages/apps/ContactsCommon" name="Altair-ROM/android_packages_apps_ContactsCommon" remote="altair" />
