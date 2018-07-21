@@ -47,6 +47,7 @@
         <linkfile src="root.bp" dest="Android.bp" />
         <linkfile src="bootstrap.bash" dest="bootstrap.bash" />
     </project>
+    <project path="external/DUI" name="Altair-ROM/android_external_DUI" remote="altair" />
     <project path="frameworks/base" name="Altair-ROM/android_frameworks_base" remote="altair" />
     <project path="lineage-sdk" name="Altair-ROM/android_platform_sdk" remote="altair" />
     <project path="packages/apps/LineageParts" name="Altair-ROM/android_packages_apps_Parts" remote="altair" />
