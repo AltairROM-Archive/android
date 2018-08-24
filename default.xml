@@ -10,7 +10,7 @@
 
   <remote  name="altair"
            fetch="ssh://git@github.com"
-           revision="refs/heads/gb"
+           revision="refs/heads/g"
            sync-c="true"
            sync-j="4" />
 
