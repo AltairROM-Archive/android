@@ -52,22 +52,22 @@
     <remove-project name="LineageOS/cm_platform_sdk" />
 
     <!-- Add Altair ROM repos -->
-    <project path="build" name="Altair-ROM/android_build" remote="altair" >
+    <project path="build" name="AltairROM/android_build" remote="altair" >
         <copyfile src="core/root.mk" dest="Makefile" />
     </project>
-    <project path="android" name="Altair-ROM/android" remote="altair" />
+    <project path="android" name="AltairROM/android" remote="altair" />
     <project path="device/generic/arm64" name="Altair-Devices/android_device_generic_arm64" remote="altair" />
     <project path="device/qcom/sepolicy" name="Altair-Devices/android_device_qcom_sepolicy" remote="altair" />
-    <project path="external/sepolicy" name="Altair-ROM/android_external_sepolicy" remote="altair" />
-    <project path="frameworks/base" name="Altair-ROM/android_frameworks_base" remote="altair" />
-    <project path="packages/apps/CMFileManager" name="Altair-ROM/android_packages_apps_CMFileManager" remote="altair" />
-    <project path="packages/apps/PackageInstaller" name="Altair-ROM/android_packages_apps_PackageInstaller" remote="altair" />
-    <project path="packages/apps/Settings" name="Altair-ROM/android_packages_apps_Settings" remote="altair" />
-    <project path="packages/apps/SetupWizard" name="Altair-ROM/android_packages_apps_SetupWizard" remote="altair" />
-    <project path="vendor/altair" name="Altair-ROM/android_vendor_altair" remote="altair" />
-    <project path="vendor/cmsdk" name="Altair-ROM/cm_platform_sdk" remote="altair" />
+    <project path="external/sepolicy" name="AltairROM/android_external_sepolicy" remote="altair" />
+    <project path="frameworks/base" name="AltairROM/android_frameworks_base" remote="altair" />
+    <project path="packages/apps/CMFileManager" name="AltairROM/android_packages_apps_CMFileManager" remote="altair" />
+    <project path="packages/apps/PackageInstaller" name="AltairROM/android_packages_apps_PackageInstaller" remote="altair" />
+    <project path="packages/apps/Settings" name="AltairROM/android_packages_apps_Settings" remote="altair" />
+    <project path="packages/apps/SetupWizard" name="AltairROM/android_packages_apps_SetupWizard" remote="altair" />
+    <project path="vendor/altair" name="AltairROM/android_vendor_altair" remote="altair" />
+    <project path="vendor/cmsdk" name="AltairROM/cm_platform_sdk" remote="altair" />
 
     <!-- Add Dirty Unicorns DUI repos -->
-    <project path="external/DUtils" name="Altair-ROM/android_external_DUtils" remote="altair" />
-    <project path="packages/apps/DUI" name="Altair-ROM/android_packages_apps_DUI" remote="altair" />
+    <project path="external/DUtils" name="AltairROM/android_external_DUtils" remote="altair" />
+    <project path="packages/apps/DUI" name="AltairROM/android_packages_apps_DUI" remote="altair" />
 </manifest>
