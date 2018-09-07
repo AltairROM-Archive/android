@@ -32,52 +32,52 @@
            sync-j="4" />
 
   <!-- BEGIN ALTAIR -->
-  <project path="build" name="Altair-ROM/android_build" remote="altair" >
+  <project path="build" name="AltairROM/android_build" remote="altair" >
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
-  <project path="android" name="Altair-ROM/android" remote="altair" />
-  <project path="external/webkit" name="Altair-ROM/android_external_webkit" remote="altair" />
-  <project path="frameworks/base" name="Altair-ROM/android_frameworks_base" remote="altair" />
-  <project path="hardware/ti/wpan" name="Altair-ROM/android_hardware_ti_wpan" remote="altair" />
-  <project path="packages/apps/AccountsAndSyncSettings" name="Altair-ROM/android_packages_apps_AccountsAndSyncSettings" remote="altair" />
-  <project path="packages/apps/AndroidTerm" name="Altair-ROM/android_packages_apps_AndroidTerm" remote="altair" />
-  <project path="packages/apps/Bluetooth" name="Altair-ROM/android_packages_apps_Bluetooth" remote="altair" />
-  <project path="packages/apps/Browser" name="Altair-ROM/android_packages_apps_Browser" remote="altair" />
-  <project path="packages/apps/Calculator" name="Altair-ROM/android_packages_apps_Calculator" remote="altair" />
-  <project path="packages/apps/Calendar" name="Altair-ROM/android_packages_apps_Calendar" remote="altair" />
-  <project path="packages/apps/CertInstaller" name="Altair-ROM/android_packages_apps_CertInstaller" remote="altair" />
-  <project path="packages/apps/CMScreenshot" name="Altair-ROM/android_packages_apps_CMScreenshot" remote="altair" />
-  <project path="packages/apps/Contacts" name="Altair-ROM/android_packages_apps_Contacts" remote="altair" />
-  <project path="packages/apps/DeskClock" name="Altair-ROM/android_packages_apps_DeskClock" remote="altair" />
-  <project path="packages/apps/DockAudio" name="Altair-ROM/android_packages_apps_DockAudio" remote="altair" />
-  <project path="packages/apps/Email" name="Altair-ROM/android_packages_apps_Email" remote="altair" />
-  <project path="packages/apps/FileManager" name="Altair-ROM/android_packages_apps_FileManager" remote="altair" />
-  <project path="packages/apps/FM" name="Altair-ROM/android_packages_apps_FM" remote="altair" />
-  <project path="packages/apps/Gallery" name="Altair-ROM/android_packages_apps_Gallery" remote="altair" />
-  <project path="packages/apps/HTMLViewer" name="Altair-ROM/android_packages_apps_HTMLViewer" remote="altair" />
-  <project path="packages/apps/Mms" name="Altair-ROM/android_packages_apps_Mms" remote="altair" />
-  <project path="packages/apps/Music" name="Altair-ROM/android_packages_apps_Music" remote="altair" />
-  <project path="packages/apps/Nfc" name="Altair-ROM/android_packages_apps_Nfc" remote="altair" />
-  <project path="packages/apps/PackageInstaller" name="Altair-ROM/android_packages_apps_PackageInstaller" remote="altair" />
-  <project path="packages/apps/Pacman" name="Altair-ROM/android_packages_apps_Pacman" remote="altair" />
-  <project path="packages/apps/Phone" name="Altair-ROM/android_packages_apps_Phone" remote="altair" />
-  <project path="packages/apps/Settings" name="Altair-ROM/android_packages_apps_Settings" remote="altair" />
-  <project path="packages/apps/Tag" name="Altair-ROM/android_packages_apps_Tag" remote="altair" />
-  <project path="packages/apps/Torch" name="Altair-ROM/android_packages_apps_Torch" remote="altair" />
-  <project path="packages/apps/Usb" name="Altair-ROM/android_packages_apps_Usb" remote="altair" />
-  <project path="packages/apps/Wallpapers" name="Altair-ROM/android_packages_apps_Wallpapers" remote="altair" />
-  <project path="packages/inputmethods/LatinIME" name="Altair-ROM/android_packages_inputmethods_LatinIME" remote="altair" />
-  <project path="packages/providers/ApplicationsProvider" name="Altair-ROM/android_packages_providers_ApplicationsProvider" remote="altair" />
-  <project path="packages/providers/CalendarProvider" name="Altair-ROM/android_packages_providers_CalendarProvider" remote="altair" />
-  <project path="packages/providers/ContactsProvider" name="Altair-ROM/android_packages_providers_ContactsProvider" remote="altair" />
-  <project path="packages/providers/DownloadProvider" name="Altair-ROM/android_packages_providers_DownloadProvider" remote="altair" />
-  <project path="packages/providers/DrmProvider" name="Altair-ROM/android_packages_providers_DrmProvider" remote="altair" />
-  <project path="packages/providers/MediaProvider" name="Altair-ROM/android_packages_providers_MediaProvider" remote="altair" />
-  <project path="packages/providers/TelephonyProvider" name="Altair-ROM/android_packages_providers_TelephonyProvider" remote="altair" />
-  <project path="packages/providers/UserDictionaryProvider" name="Altair-ROM/android_packages_providers_UserDictionaryProvider" remote="altair" />
-  <project path="vendor/altair" name="Altair-ROM/android_vendor_altair" remote="altair" />
-  <project path="vendor/tmobile/apps/ThemeChooser" name="Altair-ROM/android_vendor_tmobile_apps_ThemeChooser" remote="altair" />
-  <project path="vendor/tmobile/providers/ThemeManager" name="Altair-ROM/android_vendor_tmobile_providers_ThemeManager" remote="altair" />
+  <project path="android" name="AltairROM/android" remote="altair" />
+  <project path="external/webkit" name="AltairROM/android_external_webkit" remote="altair" />
+  <project path="frameworks/base" name="AltairROM/android_frameworks_base" remote="altair" />
+  <project path="hardware/ti/wpan" name="AltairROM/android_hardware_ti_wpan" remote="altair" />
+  <project path="packages/apps/AccountsAndSyncSettings" name="AltairROM/android_packages_apps_AccountsAndSyncSettings" remote="altair" />
+  <project path="packages/apps/AndroidTerm" name="AltairROM/android_packages_apps_AndroidTerm" remote="altair" />
+  <project path="packages/apps/Bluetooth" name="AltairROM/android_packages_apps_Bluetooth" remote="altair" />
+  <project path="packages/apps/Browser" name="AltairROM/android_packages_apps_Browser" remote="altair" />
+  <project path="packages/apps/Calculator" name="AltairROM/android_packages_apps_Calculator" remote="altair" />
+  <project path="packages/apps/Calendar" name="AltairROM/android_packages_apps_Calendar" remote="altair" />
+  <project path="packages/apps/CertInstaller" name="AltairROM/android_packages_apps_CertInstaller" remote="altair" />
+  <project path="packages/apps/CMScreenshot" name="AltairROM/android_packages_apps_CMScreenshot" remote="altair" />
+  <project path="packages/apps/Contacts" name="AltairROM/android_packages_apps_Contacts" remote="altair" />
+  <project path="packages/apps/DeskClock" name="AltairROM/android_packages_apps_DeskClock" remote="altair" />
+  <project path="packages/apps/DockAudio" name="AltairROM/android_packages_apps_DockAudio" remote="altair" />
+  <project path="packages/apps/Email" name="AltairROM/android_packages_apps_Email" remote="altair" />
+  <project path="packages/apps/FileManager" name="AltairROM/android_packages_apps_FileManager" remote="altair" />
+  <project path="packages/apps/FM" name="AltairROM/android_packages_apps_FM" remote="altair" />
+  <project path="packages/apps/Gallery" name="AltairROM/android_packages_apps_Gallery" remote="altair" />
+  <project path="packages/apps/HTMLViewer" name="AltairROM/android_packages_apps_HTMLViewer" remote="altair" />
+  <project path="packages/apps/Mms" name="AltairROM/android_packages_apps_Mms" remote="altair" />
+  <project path="packages/apps/Music" name="AltairROM/android_packages_apps_Music" remote="altair" />
+  <project path="packages/apps/Nfc" name="AltairROM/android_packages_apps_Nfc" remote="altair" />
+  <project path="packages/apps/PackageInstaller" name="AltairROM/android_packages_apps_PackageInstaller" remote="altair" />
+  <project path="packages/apps/Pacman" name="AltairROM/android_packages_apps_Pacman" remote="altair" />
+  <project path="packages/apps/Phone" name="AltairROM/android_packages_apps_Phone" remote="altair" />
+  <project path="packages/apps/Settings" name="AltairROM/android_packages_apps_Settings" remote="altair" />
+  <project path="packages/apps/Tag" name="AltairROM/android_packages_apps_Tag" remote="altair" />
+  <project path="packages/apps/Torch" name="AltairROM/android_packages_apps_Torch" remote="altair" />
+  <project path="packages/apps/Usb" name="AltairROM/android_packages_apps_Usb" remote="altair" />
+  <project path="packages/apps/Wallpapers" name="AltairROM/android_packages_apps_Wallpapers" remote="altair" />
+  <project path="packages/inputmethods/LatinIME" name="AltairROM/android_packages_inputmethods_LatinIME" remote="altair" />
+  <project path="packages/providers/ApplicationsProvider" name="AltairROM/android_packages_providers_ApplicationsProvider" remote="altair" />
+  <project path="packages/providers/CalendarProvider" name="AltairROM/android_packages_providers_CalendarProvider" remote="altair" />
+  <project path="packages/providers/ContactsProvider" name="AltairROM/android_packages_providers_ContactsProvider" remote="altair" />
+  <project path="packages/providers/DownloadProvider" name="AltairROM/android_packages_providers_DownloadProvider" remote="altair" />
+  <project path="packages/providers/DrmProvider" name="AltairROM/android_packages_providers_DrmProvider" remote="altair" />
+  <project path="packages/providers/MediaProvider" name="AltairROM/android_packages_providers_MediaProvider" remote="altair" />
+  <project path="packages/providers/TelephonyProvider" name="AltairROM/android_packages_providers_TelephonyProvider" remote="altair" />
+  <project path="packages/providers/UserDictionaryProvider" name="AltairROM/android_packages_providers_UserDictionaryProvider" remote="altair" />
+  <project path="vendor/altair" name="AltairROM/android_vendor_altair" remote="altair" />
+  <project path="vendor/tmobile/apps/ThemeChooser" name="AltairROM/android_vendor_tmobile_apps_ThemeChooser" remote="altair" />
+  <project path="vendor/tmobile/providers/ThemeManager" name="AltairROM/android_vendor_tmobile_providers_ThemeManager" remote="altair" />
   <!-- END ALTAIR -->
 
   <project path="bionic" name="CM-Archive/android_bionic" />
