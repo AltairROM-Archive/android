@@ -19,9 +19,6 @@
              sync-c="true"
              sync-j="4" />
 
-    <!-- Get rid of AOSP repos -->
-    <remove-project name="platform/hardware/invensense" />
-
     <!-- Get rid of LineageOS repos -->
     <remove-project name="LineageOS/android" />
     <remove-project name="LineageOS/android_build" />
