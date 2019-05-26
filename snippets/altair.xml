@@ -22,7 +22,6 @@
     <!-- Get rid of LineageOS repos that are not needed -->
     <remove-project name="LineageOS/android_external_gello_build" />
     <remove-project name="LineageOS/android_packages_apps_Gello" />
-    <remove-project name="LineageOS/android_packages_apps_Updater" />
     <remove-project name="LineageOS/android_packages_apps_WallpaperPicker" />
     <remove-project name="LineageOS/android_packages_screensavers_Basic" />
     <remove-project name="LineageOS/android_packages_screensavers_PhotoTable" />
