@@ -29,6 +29,7 @@
     <remove-project name="LineageOS/android_packages_apps_Settings" />
     <remove-project name="LineageOS/android_packages_apps_SetupWizard" />
     <remove-project name="LineageOS/android_packages_apps_Updater" />
+    <remove-project name="LineageOS/android_packages_overlays_Lineage" />
     <remove-project name="LineageOS/android_vendor_lineage" />
 
     <!-- Add Altair ROM repos -->
@@ -52,6 +53,7 @@
     <project path="packages/apps/Settings" name="AltairROM/android_packages_apps_Settings" remote="altair" />
     <project path="packages/apps/SmartNav" name="AltairROM/android_packages_apps_SmartNav" remote="altair" />
     <project path="packages/apps/SmartNavSettings" name="AltairROM/android_packages_apps_SmartNavSettings" remote="altair" />
+    <project path="packages/overlays/Lineage" name="AltairROM/android_packages_overlays_Lineage" remote="altair" />
     <project path="vendor/altair" name="AltairROM/android_vendor_altair" remote="altair" />
     <project path="vendor/support" name="AltairROM/android_vendor_support" remote="altair" />
 </manifest>
