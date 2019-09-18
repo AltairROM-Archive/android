@@ -5,23 +5,23 @@
            review="review.source.android.com" />
 
   <remote  name="github"
-           fetch="git://github.com"
+           fetch="https://github.com"
            review="review.lineageos.org" />
 
   <remote  name="altair"
-           fetch="ssh://git@github.com"
+           fetch="https://github.com"
            revision="refs/heads/g"
            sync-c="true"
            sync-j="4" />
 
   <remote  name="cm"
-           fetch="git://github.com"
+           fetch="https://github.com"
            revision="refs/heads/gingerbread"
            sync-c="true"
            sync-j="4" />
 
   <remote  name="tm"
-           fetch="git://github.com/TheMuppets"
+           fetch="https://github.com/TheMuppets"
            revision="refs/heads/gingerbread"
            sync-c="true"
            sync-j="4" />
