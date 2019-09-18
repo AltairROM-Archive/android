@@ -2,7 +2,7 @@
 <manifest>
 
     <remote  name="altair"
-             fetch="ssh://git@github.com"
+             fetch="https://github.com"
              revision="refs/heads/n"
              sync-c="true"
              sync-j="4" />
