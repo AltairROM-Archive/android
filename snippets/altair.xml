@@ -49,6 +49,7 @@
     </project>
     <project path="android" name="AltairROM/android" remote="altair" />
     <project path="device/qcom/sepolicy" name="Altair-Devices/android_device_qcom_sepolicy" remote="altair" />
+    <project path="external/DUtils" name="AltairROM/android_external_DUtils" remote="altair" />
     <project path="external/noto-fonts" name="AltairROM/android_external_noto-fonts" remote="altair" />
     <project path="frameworks/base" name="AltairROM/android_frameworks_base" remote="altair" />
     <project path="frameworks/native" name="AltairROM/android_frameworks_native" remote="altair" />
@@ -56,19 +57,14 @@
     <project path="packages/apps/Contacts" name="AltairROM/android_packages_apps_Contacts" remote="altair" />
     <project path="packages/apps/ContactsCommon" name="AltairROM/android_packages_apps_ContactsCommon" remote="altair" />
     <project path="packages/apps/Dialer" name="AltairROM/android_packages_apps_Dialer" remote="altair" />
+    <project path="packages/apps/DUI" name="AltairROM/android_packages_apps_DUI" remote="altair" />
     <project path="packages/apps/ExactCalculator" name="AltairROM/android_packages_apps_ExactCalculator" remote="altair" />
     <project path="packages/apps/PackageInstaller" name="AltairROM/android_packages_apps_PackageInstaller" remote="altair" />
     <project path="packages/apps/PhoneCommon" name="AltairROM/android_packages_apps_PhoneCommon" remote="altair" />
     <project path="packages/apps/Settings" name="AltairROM/android_packages_apps_Settings" remote="altair" />
     <project path="packages/apps/WallpaperPicker" name="AltairROM/android_packages_apps_WallpaperPicker" remote="altair" />
+    <project path="packages/services/ThemeInterfacer" name="AltairROM/android_packages_services_ThemeInterfacer" remote="altair" />
     <project path="system/sepolicy" name="AltairROM/android_system_sepolicy" remote="altair" />
     <project path="vendor/altair" name="AltairROM/android_vendor_altair" remote="altair" />
     <project path="vendor/cmsdk" name="AltairROM/cm_platform_sdk" remote="altair" />
-
-    <!-- Track ThemeInterfacer -->
-    <project path="packages/services/ThemeInterfacer" name="substratum/interfacer" remote="github" revision="n-rootless" />
-
-    <!-- Add Dirty Unicorns DUI repos -->
-    <project path="external/DUtils" name="AltairROM/android_external_DUtils" remote="altair" />
-    <project path="packages/apps/DUI" name="AltairROM/android_packages_apps_DUI" remote="altair" />
 </manifest>
