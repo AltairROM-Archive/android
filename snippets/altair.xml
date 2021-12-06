@@ -64,7 +64,6 @@
     <project path="packages/apps/MinimalSetupWizard" name="AltairROM/android_packages_apps_MinimalSetupWizard" remote="altair" />
     <project path="packages/apps/Settings" name="AltairROM/android_packages_apps_Settings" remote="altair" />
     <project path="packages/apps/ThemePicker" name="AltairROM/android_packages_apps_ThemePicker" remote="altair" />
-    <project path="packages/apps/Trebuchet" name="AltairROM/android_packages_apps_Trebuchet" remote="altair" />
     <project path="packages/inputmethods/LatinIME" name="AltairROM/android_packages_inputmethods_LatinIME" remote="altair" />
     <project path="packages/overlays/Lineage" name="AltairROM/android_packages_overlays_Lineage" remote="altair" />
     <project path="vendor/addons" name="AltairROM/android_vendor_addons" remote="altair" />
